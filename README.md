@@ -19,4 +19,5 @@ Annual Tax Table:
 ![Annual Tax](https://www.grantthornton.com.ph/contentassets/3daf37841e904e1290f94193e50d640e/imagej0g2d.png)
 
 Monthly Tax Table:
+
 ![Monthly Tax](http://reliabooks.ph/wp-content/uploads/2018/12/Annex-E-of-RR-11-2018.png)
