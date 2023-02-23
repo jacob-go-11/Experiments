@@ -20,7 +20,9 @@ The program imports the random module in python. In this program, a function was
 ### Sample: 
 *** Welcome to the Number Guessing Game! ***
 
+
 You may choose the range of numbers to guess from.
+
 
 Enter maximum number: 20
 Enter minumum number: 1
@@ -28,9 +30,11 @@ Enter minumum number: 1
 You have 10 chances to guess the number between 1 and 20.
 
 Enter a number: 10
+
 Too low!
 
 Enter a number: 15
+
 Too low!
 
 Enter a number: 17
