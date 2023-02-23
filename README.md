@@ -34,4 +34,5 @@ Enter a number: 15
 Too low!
 
 Enter a number: 17
+
 Congratulations! You guessed the number 17 in 3 tries!
