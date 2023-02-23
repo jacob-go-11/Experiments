@@ -17,7 +17,7 @@ low = int(input("Enter minumum number: "))
 #calls randonNumber function
 num = randomNumber(low, high)
 
-numOfGuesses = 1
+numOfGuesses = 0
 #loops for ten times or until number is guessed
 while numOfGuesses < 10:
     guess = int(input("\nEnter a number: "))
@@ -31,6 +31,6 @@ while numOfGuesses < 10:
 
 #checks if number is guessed
 if guess == num:
-    print("Congratulations! You guessed the number %d in %d tries!" % (num, numOfGuesses))
+    print("Congratulations! You guessed the number %d in %d tries!" % (num, numOfGuesses+1))
 else:
     print("The number is %d. Try again next time!" % num)
