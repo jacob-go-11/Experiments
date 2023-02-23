@@ -31,9 +31,11 @@ Enter minumum number: 1
 You have 10 chances to guess the number between 1 and 20.
 
 Enter a number: 10
+
 Too low!
 
 Enter a number: 15
+
 Too low!
 
 Enter a number: 17
