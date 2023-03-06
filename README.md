@@ -1,37 +1,34 @@
 # Experiments
 
 
-# Experiment 3: Guessing Game
 
-Hi! This program is a number guessing game. The program will choose a random number from a range of numbers for the user to guess. There are only 10 chances for the users to guess the number.
+# Experiment 5: Python Loop Performance
+
+Hi! This program compares the execution time of "for loops" and "while loops" . The program will calculate the sum of 1 to n using both loops and compare the execution times.
 
 ## How the program works
 This is a simple rundown of how this program works:
-1. Enter the minimum and maximum numbers for the range of numbers you will be guessing from.
-2. You will be promped to enter your guess. 
-3. If your guess is lower than the number, the program will display "Too Low".
-4. If you guess if higher than the number, the program will display "Too High".
-5. You may continue guessing until you have consumed your 10 chances or you guess the right number. 
-6. The program will then output the right number and your number of guesses. 
+1. Enter a number (ideally in powers of 10; 10, 100, 1000, ...)
+2. The program will calculate the sum of 1 to the number (n) using a for loop and while loop.
+3. The program will output the sum of each loop.
+4. The program will also output the execution times of each loop.
 
-## randomNumber Function 
-The program imports the random module in python. In this program, a function was created to accept the maximum and minimum range from the user. The maximum and minimum are then inserted into the "randrange()" function where it will generate a random number between the inputted range. 
+## for_loop Function 
+This function simply uses the for loop function in python. The program will continue looping the code within the for loop for as long as the condition variable is within the range(1, n+1). It will end once the variable is out of the range. 
 
-### Sample: 
-*** Welcome to the Number Guessing Game! ***
+## while_loop Function
+This function used the while loop function in python. A variable is first initialized to a value. This is then compared to a condition or "limit". The lines of code within the while loop will repeatedly run until the condition is false.
 
-You may choose the range of numbers to guess from.
+## time module
+The time module is used in time-related programs/issues. In the context of this experiement, it was used to measure the starting and final time of the functions. 
 
-Enter maximum number: 20
-Enter minumum number: 1
+### Sample
+Please enter a number(10, 100, 1000,...): 100000
 
-You have 10 chances to guess the number between 1 and 20.
+[FOR LOOP] Sum of 1 to 100000 = 5000050000
+[WHILE LOOP] Sum of 1 to 100000 = 5000050000
+		
+				TIME COMPARISION 
+For loop function total time =  -0.005671977996826172
+While loop function total time =  -0.005203962326049805
 
-Enter a number: 10
-Too low!
-
-Enter a number: 15
-Too low!
-
-Enter a number: 17
-Congratulations! You guessed the number 17 in 3 tries!
