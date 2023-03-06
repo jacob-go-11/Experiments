@@ -25,10 +25,14 @@ The time module is used in time-related programs/issues. In the context of this 
 ### Sample
 Please enter a number(10, 100, 1000,...): 100000
 
+
 [FOR LOOP] Sum of 1 to 100000 = 5000050000
+
 [WHILE LOOP] Sum of 1 to 100000 = 5000050000
 		
 				TIME COMPARISION 
+				
 For loop function total time =  -0.005671977996826172
+
 While loop function total time =  -0.005203962326049805
 
