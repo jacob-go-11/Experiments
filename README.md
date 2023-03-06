@@ -3,7 +3,7 @@
 
 
 # Experiment 5: Python Loop Performance
-
+Filename: loop_compare.py
 Hi! This program compares the execution time of "for loops" and "while loops" . The program will calculate the sum of 1 to n using both loops and compare the execution times.
 
 ## How the program works
