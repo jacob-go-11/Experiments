@@ -6,3 +6,4 @@ Hi! I am Jacob Go. This repository serves as a compilation of experiments done i
 
  - Experiment 2: Tax calculator 
  - Experiment 3: Guessing Game
+ - Experiment 5: Python Loop Performance
