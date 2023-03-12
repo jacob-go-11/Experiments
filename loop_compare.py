@@ -37,7 +37,7 @@ print("For loop function total time = ", time_total1)
 
 #measures and prints executed time for while_loop function
 time_start2 = time.time()
-for_loop(n)
+while_loop(n)
 time_end2 = time.time()
 time_total2 = time_end2 - time_start2
 print("While loop function total time = ", time_total2)    
