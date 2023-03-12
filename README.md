@@ -33,7 +33,7 @@ Please enter a number(10, 100, 1000,...): 100000
 		
 				TIME COMPARISION 
 				
-For loop function total time =  0.005671977996826172
+For loop function total time =   0.005721092224121094
 
-While loop function total time =  0.0053310394287109375
+While loop function total time =  0.008658170700073242
 
